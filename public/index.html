@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Test 👵🏽</h1>
+      <form class="form">
+        <label class="label"
+          >Enter words and/or numbers separated by a space:
+        </label>
+        <input class="js-input input" />
+        <button type="submit" class="js-submit buttonSubmit">enter</button>
+      </form>
+      <section class="result">
+        <h3 class="resultTitle">The result is:</h3>
+        <p class="js-output output" />
+      </section>
+      <section class="history">
+        <button type="button" class="js-request buttonRequest">
+          Request endpoint call history
+        </button>
+        <table class="table">
+          <thead>
+            <tr class="tableTitle">
+              <th class="first">method</th>
+              <th class="second">date</th>
+              <th class="third">ulr</th>
+            </tr>
+          </thead>
+          <tbody class="js-table"></tbody>
+        </table>
+      </section>
+      <script type="text/javascript" src="./main.js"></script>
+    </main>
+  </body>
+</html>

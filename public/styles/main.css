@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding:0;
+
+
+}
+main{
+    margin: 20px;
+}
+.title{
+    padding: 20px;
+    text-align: center;
+}
+.form{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.label{
+    text-align: center;
+    margin: 10px;
+}
+.input{
+    border-radius: 10px;
+    height: 20px;
+    width: 50%;
+    margin: 10px auto;
+    
+}
+.buttonSubmit{
+    width: 50%;
+    height: 30px;
+    margin: 5px auto;
+    background-color: black;
+    color: white
+}
+.result{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.output{
+    height: 25px;
+    width: 40px;
+    border: 1px solid black;
+    margin-left:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.history{
+    height: 30vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.buttonRequest{
+    width: 40%;
+    height: 30px;
+    background-color: black;
+    color: white
+}
+.table{
+    margin: 10px;
+    width: 70%;
+}
+ th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  width: 30%;
+} 
+ .tableTitle{
+    width: 100%;
+}
+.first, .third{
+width: 20%
+}
+.second{
+    width: 50%;
+} 
